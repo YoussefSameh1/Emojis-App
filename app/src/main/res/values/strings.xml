@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="coldDescription">This emoji shows a blue face with chattering teeth, indicating extreme coldness. It\'s often used to express feeling very cold or freezing.</string>
+    <string name="cold_face">Cold Face:</string>
+    <string name="back">Back</string>
+    <string name="fearful_face">Fearful Face:</string>
+    <string name="fearfulDescription">This emoji shows a face with wide, frightened eyes and an open mouth, conveying fear or shock. It can be used to express being scared or alarmed by something.</string>
+    <string name="hot_face">Hot Face:</string>
+    <string name="hotDescription">This emoji has a red face with its tongue sticking out and sweat dripping, signifying that someone is feeling extremely hot or overheated. It can be used to describe hot weather or a heated situation.</string>
+    <string name="hugging_face">Hugging Face:</string>
+    <string name="huggingDescription">This emoji has a smiling face with open hands, symbolizing a hug. It’s used to offer support, love, or comfort to someone.</string>
+    <string name="laughing_face">Rolling on the Floor Laughing:</string>
+    <string name="laughingDescription">This emoji is laughing with tears and is tilted on its side. It\'s used to indicate that something is extremely funny, to the point where one can\'t help but roll on the floor laughing.</string>
+    <string name="pleading_face">Pleading Face:</string>
+    <string name="pleadingDescription">This emoji has large, watery eyes, often used to represent begging or pleading for something. It’s a way to show a heartfelt plea or request.</string>
+    <string name="pouting_face">Pouting Face:</string>
+    <string name="poutingDescription">This emoji depicts a face with a frown and furrowed brows, representing anger or frustration. It\'s commonly used to show annoyance or displeasure.</string>
+    <string name="screaming_face">Face Screaming in Fear:</string>
+    <string name="screamingDescription">This emoji represents a face screaming in fear. It features wide eyes, an open mouth, and hands pressed against the cheeks, resembling the character in Edvard Munch\'s painting \'The Scream.\' It\'s often used to convey shock, horror, or extreme fear.</string>
+    <string name="shushing_face">Shushing Face:</string>
+    <string name="shushingDescription">This emoji depicts a face with a finger held to its lips, requesting silence. It’s used to ask someone to be quiet or to represent secrecy.</string>
+    <string name="crying_face">Crying Face:</string>
+    <string name="cryingDescription">This emoji shows a face with a tear streaming down from eyes, often used to express sadness, pain, or disappointment. It\'s a simple way to convey that you\'re feeling down or have been hurt.</string>
+    <string name="tap">TAP ME!</string>
+    <string name="tap_text">Tap the button to see the emojis</string>
+    <string name="select">Select an emoji to see its description</string>
+</resources>

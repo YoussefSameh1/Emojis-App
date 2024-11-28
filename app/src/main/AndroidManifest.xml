@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".UI.DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Data.Emoji"
+            android:exported="false" />
+        <activity
+            android:name=".UI.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Fearful"
+            android:exported="false" />
+        <activity
+            android:name=".Hugging"
+            android:exported="false" />
+        <activity
+            android:name=".Pleading"
+            android:exported="false" />
+        <activity
+            android:name=".Laughing"
+            android:exported="false" />
+        <activity
+            android:name=".Shushing"
+            android:exported="false" />
+        <activity
+            android:name=".Cold"
+            android:exported="false" />
+        <activity
+            android:name=".Hot"
+            android:exported="false" />
+        <activity
+            android:name=".Pouting"
+            android:exported="false" />
+        <activity
+            android:name=".Crying"
+            android:exported="false" />
+        <activity
+            android:name=".Screaming"
+            android:exported="false" />
+        <activity
+            android:name=".UI.EmojisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UI.splashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

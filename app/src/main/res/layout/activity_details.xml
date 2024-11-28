@@ -1,0 +1,53 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Cold">
+
+    <TextView
+        android:id="@+id/emojiName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/cold_face"
+        android:textSize="30sp"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:textColor="#DD2C00" />
+
+    <TextView
+        android:id="@+id/emojiDescription"
+        android:layout_below="@+id/emojiName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/coldDescription"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/emojiImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/back"
+        android:layout_below="@+id/emojiDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:contentDescription="@string/cold_face"
+        android:src="@drawable/cold_face_svgrepo_com" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:onClick="back"
+        android:padding="16dp"
+        android:text="@string/back"
+        android:textSize="20sp" />
+
+</RelativeLayout>
